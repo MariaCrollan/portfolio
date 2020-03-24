@@ -90,7 +90,7 @@ li{
 }
 
 .desktop{
-        height: 450px;
+        height: 700px;
         position: absolute;
 }
 
@@ -205,6 +205,34 @@ p {
     text-align: center;
 }
 
+.boton{
+    border: 1px solid #304F8C; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #304F8C; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; 
+    border-radius: 8px; /*bordes redondos*/
+    margin-left: 122px;
+    font-size: 16px;
+}
+
+.boton2{
+    border: 1px solid #18866D; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #18866D; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; 
+    border-radius: 8px; /*bordes redondos*/
+    font-size: 16px;
+}
+/* 
+.link1{
+    font-size: 16px;
+    font-weight: 800;
+    margin-left: 122px;
+    color: #304F8C
+} */
+
 .text-footer1{
     color: white;
     font-size: 11px;
@@ -216,14 +244,15 @@ p {
     word-wrap: break-word;
     margin-left: 122px;
     margin-top: 20px;
-    margin-bottom: 20px;
-    line-height : 25px;
+    margin-bottom: 40px;
+    line-height : 28px;
 }
 .text-project1{
     width: 60%;
     margin-left: 0px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    line-height : 28px;
     ;
 }
 
@@ -234,10 +263,10 @@ p {
     margin-left: 122px;
 }
 
-.link1{
-    font-size: 14px;
+.link2{
+    font-size: 16px;
     font-weight: 800;
-    font-style: oblique;
+    color: #18866D
 }
 
 .about{
@@ -365,10 +394,6 @@ p {
     width: 80vw;
 }
 
-/* .tittle-research{
-    word-wrap: break-word;
-} */
-
 .sect-textos {
     display: flex;
     justify-content: space-around;
@@ -408,6 +433,21 @@ p {
     margin-left: 122px;
     margin-top: 40px;
     display: flex;
+}
+
+.button2{
+    margin-top: 40px;
+}
+
+.boton_personalizado2{
+    text-decoration: none;
+    padding: 30px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #272B2F;
+    border-radius: 4px;
+    margin-right: 16px;
 }
 
 .boton_personalizado{
